@@ -7,13 +7,13 @@ Joined #MintBean in their [Learn-a-bit challenge](https://mintbean.io/meets/9710
 
 ## Original Design Guide Wireframe
 
-Challenge01/design-guideline/learnabit-ch01-desktop.png 
-Challenge01/design-guideline/learnabit-ch01-mobile.png
+![image](https://user-images.githubusercontent.com/76925728/121444099-b1540f00-c943-11eb-8608-97970adecb6b.png)
+![image](https://user-images.githubusercontent.com/76925728/121444111-b7e28680-c943-11eb-8e2b-2fdf0826ce75.png)
 
 ## Preview of webpage
 
-![Image of Desktop View]<img width="1781" alt="Learnabit-desktopview" src="https://user-images.githubusercontent.com/76925728/121443648-bbc1d900-c942-11eb-9c17-fa1052395eae.png">
-![Image of Mobile Hamburger Menu View]<img width="383" alt="Screen Shot 2021-06-09 at 4 28 33 PM" src="https://user-images.githubusercontent.com/76925728/121443658-c1b7ba00-c942-11eb-85ca-6fa3c896bdb6.png">
+<img width="1781" alt="Learnabit-desktopview" src="https://user-images.githubusercontent.com/76925728/121443648-bbc1d900-c942-11eb-9c17-fa1052395eae.png">
+<img width="383" alt="Screen Shot 2021-06-09 at 4 28 33 PM" src="https://user-images.githubusercontent.com/76925728/121443658-c1b7ba00-c942-11eb-85ca-6fa3c896bdb6.png">
 
 ## Outcome
 Through this challenge, I got to build a mobile hamburger menu both using only CSS and CSS with Javascript. I also gained a better understanding of using CSS and Javascript for DOM manipulation and improving user interface. 
