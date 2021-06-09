@@ -16,7 +16,6 @@ body{
     max-width: 960px;
     margin: auto;
     overflow: hidden;
-    padding: 0 3rem;
 }
 .showcase{
     background-color:#22172733;
@@ -41,9 +40,16 @@ body{
     background-color: #221727c9 ;
     width: 93%;
 }
+.header-title{
+    font-family: 'Viga', sans-serif;;
+}
+.header-body{
+    color: lightgray;
+}
 .header-title, .header-body, #header-btn{
     padding: 10px 20px;
     line-height: 1.6;
+    text-align: left;
 }
 .header-title, #header-btn, .navbar-btn {
     text-transform: uppercase;
@@ -85,11 +91,14 @@ a{
         margin: 2%;
     }
     .header-card {
-      text-align: center; 
+        text-align: center; 
+        /* width: 35%; */
+        margin-top: 5%;
+        padding: 3%;
     }
     #header-btn {
-        margin: 1%;
-        padding:10px 40px; 
+        margin: 3%;
+        padding:7px 15%; 
       }
     .menu-wrap{
         position: fixed;
@@ -217,13 +226,14 @@ a{
       margin: 2%;
     }
     .header-card {
-        width: 45%;
-        margin: 20px 10% ;
+        width: 35%;
+        margin: 7% 10% ;
+        padding: 1%;
     }
     .navbar {
         flex-direction: row;
         justify-content: space-between;
-        padding: 1% 5%
+        padding: 0.5% 5%
     }
     .menu > div > div > ul {
         display: flex;
