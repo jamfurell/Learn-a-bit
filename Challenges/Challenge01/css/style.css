@@ -82,8 +82,8 @@ body{
     text-decoration: none;
 }
 
-/* style for header-card and navbar btn  */
-.header-card{
+/* style for card and navbar btn  */
+.card{
     border: 2px solid #5EF4D6;
     border-radius: 10px;
     background-color: #221727c9 ;
@@ -156,7 +156,7 @@ body{
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
-    .header-card {
+    .card {
         text-align: center; 
         margin: 5% auto;
         padding: 3%;
@@ -170,7 +170,7 @@ body{
     #header-btn {
         margin: 2%;
     }
-    .header-card {
+    .card {
         width: 35%;
         margin: 7% 10% ;
         padding: 1%;
