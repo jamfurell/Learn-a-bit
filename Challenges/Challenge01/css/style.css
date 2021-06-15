@@ -9,7 +9,6 @@ body{
 }
 .header{
     font-family: 'Viga', sans-serif;
-    border-bottom: 1px solid black;
 }
 .navbar {
     display: flex;
@@ -17,6 +16,7 @@ body{
     align-items: center;
     padding: 1rem 1.5rem;
     background-color: #221727;
+    border-bottom: 1px solid black;
 }
 /* hamburger style  */
 .hamburger{
