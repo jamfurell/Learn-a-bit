@@ -95,26 +95,26 @@ body{
 .card-body{
     color: lightgray;
 }
-.card-title, .card-body, #header-btn{
+.card-title, .card-body, .card-btn{
     padding: 10px 20px;
     line-height: 1.6;
     text-align: left;
 }
-.card-title, #header-btn, .navbar-btn {
+.card-title, .card-btn, .navbar-btn {
     text-transform: uppercase;
 }
-.card-body, #header-btn, .navbar-btn a{
+.card-body, .card-btn, .navbar-btn a{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
 }
-#header-btn, .navbar-btn{
+.card-btn, .navbar-btn{
     background-color: #5EF4D6;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 1rem;  
     transition: opacity 0.1s ease-in
 }
-#header-btn:hover, .navbar-btn:hover{
+.card-btn:hover, .navbar-btn:hover{
     opacity: 0.8;
 }
 
@@ -161,13 +161,13 @@ body{
         margin: 5% auto;
         padding: 3%;
     }
-    #header-btn {
+    .card-btn {
         margin: 3%;
         padding:7px 15%; 
     }
 }
 @media only screen and (min-width: 600px) {
-    #header-btn {
+    .card-btn {
         margin: 2%;
     }
     .card {
