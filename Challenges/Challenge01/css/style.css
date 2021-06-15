@@ -90,12 +90,14 @@ body{
     width: 93%;
 }
 .card-title{
-    font-family: 'Viga', sans-serif;;
+    font-family: 'Viga', sans-serif;
+    font-size: 1.6rem;
 }
 .card-body{
     color: lightgray;
+    padding-bottom: 25px;
 }
-.card-title, .card-body, .card-btn{
+.card-title, .card-body{
     padding: 10px 20px;
     line-height: 1.6;
     text-align: left;
@@ -113,11 +115,15 @@ body{
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 1rem;  
-    transition: opacity 0.1s ease-in
+    transition: opacity 0.1s ease-in;
+    display: block;
+    text-align: center;
+    font-size: 20px;
 }
 .card-btn:hover, .navbar-btn:hover{
     opacity: 0.8;
 }
+
 
 
 /* add media queries */
@@ -160,16 +166,18 @@ body{
     .card {
         text-align: center; 
         margin: 5% auto;
-        padding: 3%;
+        padding: 4%;
     }
     .card-btn {
         margin: 3%;
-        padding:7px 15%; 
+        /* padding:7px 15%;  */
     }
 }
 @media only screen and (min-width: 600px) {
     .card-btn {
-        margin: 2%;
+        margin: 3%;
+        /* padding: 10px 20px; */
+        width: 65%;
     }
     .card {
         width: 35%;
