@@ -92,10 +92,10 @@ body{
 .card-title{
     font-family: 'Viga', sans-serif;;
 }
-.header-body{
+.card-body{
     color: lightgray;
 }
-.card-title, .header-body, #header-btn{
+.card-title, .card-body, #header-btn{
     padding: 10px 20px;
     line-height: 1.6;
     text-align: left;
@@ -103,7 +103,7 @@ body{
 .card-title, #header-btn, .navbar-btn {
     text-transform: uppercase;
 }
-.header-body, #header-btn, .navbar-btn a{
+.card-body, #header-btn, .navbar-btn a{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
 }
