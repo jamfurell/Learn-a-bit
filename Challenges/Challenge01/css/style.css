@@ -89,18 +89,18 @@ body{
     background-color: #221727c9 ;
     width: 93%;
 }
-.header-title{
+.card-title{
     font-family: 'Viga', sans-serif;;
 }
 .header-body{
     color: lightgray;
 }
-.header-title, .header-body, #header-btn{
+.card-title, .header-body, #header-btn{
     padding: 10px 20px;
     line-height: 1.6;
     text-align: left;
 }
-.header-title, #header-btn, .navbar-btn {
+.card-title, #header-btn, .navbar-btn {
     text-transform: uppercase;
 }
 .header-body, #header-btn, .navbar-btn a{
