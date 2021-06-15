@@ -18,6 +18,7 @@ body{
     background-color: #221727;
     border-bottom: 1px solid black;
 }
+
 /* hamburger style  */
 .hamburger{
     display: none
@@ -31,6 +32,7 @@ body{
     transition: all 0.3s ease-in-out;
     background-color: #5EF4D6;
 }
+
 /* css for container */
 .container{
     background-color:#22172733;
@@ -58,7 +60,6 @@ body{
 }
 .navbar-item{
     list-style: none;
-    /* margin-left: 5rem; */
     font-family: 'Rubik', sans-serif;
     padding: 0.2rem;
 }
@@ -87,7 +88,7 @@ body{
     border: 2px solid #5EF4D6;
     border-radius: 10px;
     background-color: #221727c9 ;
-    width: 93%;
+    width: 40%;
 }
 .card-title{
     font-family: 'Viga', sans-serif;
@@ -114,17 +115,15 @@ body{
     color: #221727;
     border-radius: 10px;
     padding: 10px 20px;
-    font-size: 1rem;  
+    font-size: 1.3rem;  
     transition: opacity 0.1s ease-in;
     display: block;
     text-align: center;
-    font-size: 20px;
+    margin: 3%;
 }
 .card-btn:hover, .navbar-btn:hover{
     opacity: 0.8;
 }
-
-
 
 /* add media queries */
 @media only screen and (max-width: 600px){
@@ -167,21 +166,17 @@ body{
         text-align: center; 
         margin: 5% auto;
         padding: 4%;
-    }
-    .card-btn {
-        margin: 3%;
-        /* padding:7px 15%;  */
+        width: 93%;
     }
 }
 @media only screen and (min-width: 600px) {
-    .card-btn {
-        margin: 3%;
-        /* padding: 10px 20px; */
-        width: 65%;
-    }
     .card {
-        width: 35%;
         margin: 7% 10% ;
         padding: 1%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .card-btn{
+        width: 55%;
     }
 }
