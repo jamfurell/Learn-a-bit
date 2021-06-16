@@ -80,20 +80,18 @@ body {
 }
 .navbar-item {
     /* Display and Box Model  */
-    list-style: none;
     padding: 0.2rem;
-
+    
     /* Text  */
+    list-style: none;
     font-family: 'Rubik', sans-serif;
 }
 .navbar-link {
-    /* Display and Box Model  */
-    text-decoration: none;
-    
     /* Color  */
     color: #F1FFF6; 
-
+    
     /* Text  */
+    text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
 }
