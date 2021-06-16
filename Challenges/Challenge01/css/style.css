@@ -1,178 +1,262 @@
-*{
+* {
+    /* Display and Box Model  */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
+body {
+    /* Display and Box Model  */
     width: 100vw;
+    height: 100vh;
 }
-.header{
+.header {
     font-family: 'Viga', sans-serif;
-    border-bottom: 1px solid black;
 }
 .navbar {
+    /* Display and Box Model  */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+
+    /* Color  */
     background-color: #221727;
+    border-bottom: 1px solid black;
+    
 }
-/* hamburger style  */
-.hamburger{
+
+/* ====== CSS for hamburger ======  */
+.hamburger {
     display: none
 }
-.bar{
+.bar {
+    /* Display and Box Model  */
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
+
+    /* Color  */
+    background-color: #5EF4D6;
+
+    /* Other */
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #5EF4D6;
-}
-/* css for showcase */
-.showcase{
-    background-color:#22172733;
-    color: #F1FFF6;
-    height: 100vh;
-    position: relative;
-    padding-top: 20px;
-}
-.showcase:before{
-    content:'';
-    background: url("../images/mintbean-dome.png") no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 }
 
-/* style for navbar content  */
-.nav-menu{
+/* ====== CSS for Container ======= */
+.container {
+    /* Positioning  */
+    position: relative;
+
+    /* Display and Box Model  */
+    height: 100vh;
+    padding-top: 20px;
+
+    /* Color  */
+    background-color:#22172733;
+    color: #F1FFF6;
+}
+.container:before {
+    /* Positioning  */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    /* Display and Box Model  */
+    content:'';
+    background: url("../images/mintbean-dome.png") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for Navbar Content  */
+.navbar-menu {
+    /* Display and Box Model  */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-item{
+.navbar-item {
+    /* Display and Box Model  */
     list-style: none;
-    /* margin-left: 5rem; */
-    font-family: 'Rubik', sans-serif;
     padding: 0.2rem;
+
+    /* Text  */
+    font-family: 'Rubik', sans-serif;
 }
-.nav-link{
+.navbar-link {
+    /* Display and Box Model  */
     text-decoration: none;
+    
+    /* Color  */
+    color: #F1FFF6; 
+
+    /* Text  */
     font-size: 1.2rem;
     font-weight: 400;
-    color: #F1FFF6; 
 }
-.nav-link:hover, .nav-link:active{
+.navbar-link:hover,
+.navbar-link:active {
+    /* Color  */
     color: #24E5A3; 
 }
-.navbar-btn{
-    background-color: #5EF4D6;
+.navbar-btn {
+    /* Display and Box Model  */
     border-radius: 10px;
     padding: 10px 20px;
+
+    /* Color  */
+    background-color: #5EF4D6;
+
+    /* Text  */
     font-weight: bold;   
 }
-.navbar-btn a{
+.navbar-btn a {
+    /* Color  */
     color: black;
+
+    /* Text  */
     text-decoration: none;
 }
 
-/* style for header-card and navbar btn  */
-.header-card{
+/* style for card and navbar btn  */
+.card {
+    /* Display and Box Model  */
     border: 2px solid #5EF4D6;
     border-radius: 10px;
+    width: 40%;
+
+    /* Color  */
     background-color: #221727c9 ;
-    width: 93%;
 }
-.header-title{
-    font-family: 'Viga', sans-serif;;
+.card-title {
+    /* Text  */
+    font-family: 'Viga', sans-serif;
+    font-size: 1.6rem;
 }
-.header-body{
+.card-body {
+    /* Display and Box Model  */
+    padding-bottom: 25px;
+    
+    /* Color  */
     color: lightgray;
 }
-.header-title, .header-body, #header-btn{
+.card-title, .card-body {
+    /* Display and Box Model  */
     padding: 10px 20px;
+    
+    /* Text  */
     line-height: 1.6;
     text-align: left;
 }
-.header-title, #header-btn, .navbar-btn {
+.card-title,
+.card-btn,
+.navbar-btn {
     text-transform: uppercase;
 }
-.header-body, #header-btn, .navbar-btn a{
+.card-body,
+.card-btn,
+.navbar-btn a {
+    /* Text  */
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
 }
-#header-btn, .navbar-btn{
-    background-color: #5EF4D6;
+.card-btn,
+.navbar-btn {
+
+    /* Display and Box Model  */
+    display: block;
     border-radius: 10px;
+    margin: 3%;
     padding: 10px 20px;
-    font-size: 1rem;  
-    transition: opacity 0.1s ease-in
+
+    /* Color  */
+    background-color: #5EF4D6;
+    color: #221727;
+
+    /* Text  */
+    font-size: 1.3rem;  
+    text-align: center;
+
+    /* Other  */
+    transition: opacity 0.1s ease-in;
+
 }
-#header-btn:hover, .navbar-btn:hover{
+.card-btn:hover,
+.navbar-btn:hover {
     opacity: 0.8;
 }
 
-
 /* add media queries */
-@media only screen and (max-width: 600px){
-    .nav-menu{
+@media only screen and (max-width: 600px) {
+    .navbar-menu {
+        /* Positioning  */
         position: fixed;
+        z-index: 1;
         left: -100%;
         top: 5rem;
+
+        /* Display and Box Model  */
         flex-direction: column;
-        background-color: #221727f7;
-        width: 100%;
         border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
+        width: 100%;
+        
+        /* Color  */
+        background-color: #221727f7;
         box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-        z-index: 1;
+
+        /* Text  */
+        text-align: center;
+
+        /* Other  */
+        transition: 0.3s;
     }
-    .nav-menu.active{
+    .navbar-menu.active {
         left: 0;
     }
-    .nav-item{
+    .navbar-item {
         margin: 1rem 0;
     }
-    .navbar-line{
+    .navbar-line {
         visibility: hidden;
     }
-    .hamburger{
+    .hamburger {
+        /* Display and Box Model  */
         display: block;
+
+        /* Other */
         cursor: pointer;
     }
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
-    .hamburger.active .bar:nth-child(1){
+    .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.active .bar:nth-child(3){
+    .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .header-card {
-        text-align: center; 
+    .card {
+        /* Display and Box Model  */
+        width: 93%;
         margin: 5% auto;
-        padding: 3%;
-    }
-    #header-btn {
-        margin: 3%;
-        padding:7px 15%; 
+        padding: 4%;
+
+        /* Text  */
+        text-align: center; 
     }
 }
 @media only screen and (min-width: 600px) {
-    #header-btn {
-        margin: 2%;
-    }
-    .header-card {
-        width: 35%;
+    .card {
+        /* Display and Box Model  */
         margin: 7% 10% ;
         padding: 1%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .card-btn {
+        width: 55%;
     }
 }

@@ -1,6 +1,6 @@
 const hamburger= document.querySelector(".hamburger");
-const navMenu= document.querySelector(".nav-menu");
-const navLink = document.querySelector(".nav-link")
+const navMenu= document.querySelector(".navbar-menu");
+const navLink = document.querySelector(".navbar-link")
 
 hamburger.addEventListener("click", mobileMenu);
 navLink.forEach( n => {
