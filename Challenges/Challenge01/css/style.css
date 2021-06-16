@@ -169,7 +169,7 @@ body {
     /* Display and Box Model  */
     display: block;
     border-radius: 10px;
-    margin: 3%;
+    margin: 0.5rem;
     padding: 10px 20px;
 
     /* Color  */
@@ -242,7 +242,7 @@ body {
         /* Display and Box Model  */
         width: 93%;
         margin: 5% auto;
-        padding: 4%;
+        padding: 1rem;
 
         /* Text  */
         text-align: center; 
@@ -252,7 +252,7 @@ body {
     .card {
         /* Display and Box Model  */
         margin: 7% 10% ;
-        padding: 1%;
+        padding: 1rem;
     }
 }
 @media only screen and (min-width: 1200px) {
