@@ -79,6 +79,7 @@ body {
     /* Display and Box Model  */
     display: block;
     border-radius: 10px;
+    width: 250px;
     padding: 10px 20px;
     
     /* Color  */
@@ -111,7 +112,6 @@ body {
     #about-btn {
         /* Display and Box Model  */
         display: block;
-        width: 55%;
         margin: 1rem;
 
         /* Text  */
@@ -139,7 +139,6 @@ body {
     #about-btn {
         /* Display and Box Model  */
         display: block;
-        width: 45%;
         margin: 1rem;
 
         /* Text  */
