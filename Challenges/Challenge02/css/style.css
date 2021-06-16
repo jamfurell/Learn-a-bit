@@ -9,3 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.main {
+    /* Text  */
+    font-family: 'Viga', sans-serif;
+}
