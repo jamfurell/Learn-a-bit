@@ -21,8 +21,8 @@ Desktop View               |  Mobile View
 ### Challenge 02
 Desktop View               |  Mobile View
 :-------------------------:|:-------------------------:
-<img width="850" height="600" alt="Ch02-desktop-view" src="https://user-images.githubusercontent.com/76925728/122302149-8e32dd80-ceb6-11eb-9cea-78f79f0cddeb.png">
-|<img width="383" height="600" alt="Ch02-mobile-view" src="https://user-images.githubusercontent.com/76925728/122302154-912dce00-ceb6-11eb-8e6b-a810c9ceaf2e.png">
+<img width="700" height="800" alt="Ch02-desktop-view" src="https://user-images.githubusercontent.com/76925728/122302149-8e32dd80-ceb6-11eb-9cea-78f79f0cddeb.png"> 
+| <img width="383" height="800" alt="Ch02-mobile-view" src="https://user-images.githubusercontent.com/76925728/122302154-912dce00-ceb6-11eb-8e6b-a810c9ceaf2e.png"> 
 
 
 ## Outcome
