@@ -16,12 +16,12 @@ For the second challenge, participants recreated a card section of a landing pag
 ### Challenge 01
 Desktop View               |  Mobile View
 :-------------------------:|:-------------------------:
-<img width="850" height="600" alt="Learnabit-desktopview" src="https://user-images.githubusercontent.com/76925728/121443648-bbc1d900-c942-11eb-9c17-fa1052395eae.png"> | <img width="383" height="600" alt="Screen Shot 2021-06-09 at 4 28 33 PM" src="https://user-images.githubusercontent.com/76925728/121443658-c1b7ba00-c942-11eb-85ca-6fa3c896bdb6.png">
+<img width="1000" height="600" alt="Learnabit-desktopview" src="https://user-images.githubusercontent.com/76925728/121443648-bbc1d900-c942-11eb-9c17-fa1052395eae.png"> | <img width="383" height="600" alt="Screen Shot 2021-06-09 at 4 28 33 PM" src="https://user-images.githubusercontent.com/76925728/121443658-c1b7ba00-c942-11eb-85ca-6fa3c896bdb6.png">
 
 ### Challenge 02
 Desktop View               |  Mobile View
 :-------------------------:|:-------------------------:
-<img width="800" height="800" alt="Ch02-desktop-view" src="https://user-images.githubusercontent.com/76925728/122302149-8e32dd80-ceb6-11eb-9cea-78f79f0cddeb.png"> | <img width="383" height="800" alt="Ch02-mobile-view" src="https://user-images.githubusercontent.com/76925728/122302154-912dce00-ceb6-11eb-8e6b-a810c9ceaf2e.png"> 
+<img width="1000" height="800" alt="Ch02-desktop-view" src="https://user-images.githubusercontent.com/76925728/122302149-8e32dd80-ceb6-11eb-9cea-78f79f0cddeb.png"> | <img width="383" height="800" alt="Ch02-mobile-view" src="https://user-images.githubusercontent.com/76925728/122302154-912dce00-ceb6-11eb-8e6b-a810c9ceaf2e.png"> 
 
 
 ## Outcome
