@@ -23,6 +23,12 @@ Desktop View               |  Mobile View
 :-------------------------:|:-------------------------:
 <img width="1000" height="800" alt="Ch02-desktop-view" src="https://user-images.githubusercontent.com/76925728/122302149-8e32dd80-ceb6-11eb-9cea-78f79f0cddeb.png"> | <img width="383" height="800" alt="Ch02-mobile-view" src="https://user-images.githubusercontent.com/76925728/122302154-912dce00-ceb6-11eb-8e6b-a810c9ceaf2e.png"> 
 
+### Challenge 03
+Desktop View               |  Mobile View
+:-------------------------:|:-------------------------:
+<img width="1000" height="800" alt="Ch3-desktop-view" src="https://user-images.githubusercontent.com/76925728/123038284-f39a3900-d3a4-11eb-9266-d49529de12dc.png">
+| <img width="383" height="600" alt="Ch03-mobile-view" src="https://user-images.githubusercontent.com/76925728/123038296-f5fc9300-d3a4-11eb-8fcd-45c20cf76460.png"> 
+
 
 ## Outcome
 Throughout this series of challenge, I was able to learn a lot and build up on my foundational skills in HTML, CSS and Javscript. I learned to apply CSS styles to .svg images and modify them without using any libraries. I got to build a mobile hamburger menu both using only CSS and CSS with Javascript. I also gained a better understanding of using CSS and Javascript for DOM manipulation and improving user interface. 
