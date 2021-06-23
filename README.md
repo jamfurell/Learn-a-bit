@@ -25,5 +25,16 @@ Desktop View               |  Mobile View
 
 
 ## Outcome
-Through this challenge, I got to build a mobile hamburger menu both using only CSS and CSS with Javascript. I also gained a better understanding of using CSS and Javascript for DOM manipulation and improving user interface. 
+Throughout this series of challenge, I was able to learn a lot and build up on my foundational skills in HTML, CSS and Javscript. I learned to apply CSS styles to .svg images and modify them without using any libraries. I got to build a mobile hamburger menu both using only CSS and CSS with Javascript. I also gained a better understanding of using CSS and Javascript for DOM manipulation and improving user interface. 
 Special Thanks to [Mintbean](https://mintbean.io/) for this opportunity!
+
+### Footnote
+Original Artwork for profile pics: JanieH\
+Credit for Icons:\
+Icons from <a href="https://icons8.com">Icons8 website</a>
+ https://icons8.com/icons/set/github
+Icon by <a href="https://freeicons.io/profile/730">anumithun</a> on <a href="https://freeicons.io">freeicons.io</a>
+Icon by <a href="https://freeicons.io/profile/823">Muhammad Haq</a> on <a href="https://freeicons.io">freeicons.io</a>
+    
+    
+
