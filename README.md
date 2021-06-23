@@ -31,9 +31,8 @@ Special Thanks to [Mintbean](https://mintbean.io/) for this opportunity!
 ### Footnote
 Original Artwork for profile pics: JanieH\
 Credit for Icons:\
-Icons from <a href="https://icons8.com">Icons8 website</a>
- https://icons8.com/icons/set/github
-Icon by <a href="https://freeicons.io/profile/730">anumithun</a> on <a href="https://freeicons.io">freeicons.io</a>
+Icons from <a href="https://icons8.com">Icons8 website</a>\
+Icon by <a href="https://freeicons.io/profile/730">anumithun</a> on <a href="https://freeicons.io">freeicons.io</a>\
 Icon by <a href="https://freeicons.io/profile/823">Muhammad Haq</a> on <a href="https://freeicons.io">freeicons.io</a>
     
     
