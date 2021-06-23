@@ -84,5 +84,14 @@ body{
 }
 
 @media only screen and (min-width: 900px){
-    
+    .team-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .team{
+        padding-top: 90px;
+    }
+    .team-card{
+        width: 25%;
+    }
 }
