@@ -17,7 +17,7 @@ body{
     font-family: Viga, sans-serif;
 }
 .team-title{
-    padding: 25px 0 0 0;
+    padding: 20px 0 10px 0;
     font-size: 2rem;
 }
 .team-container{
@@ -60,14 +60,14 @@ body{
 }
 .team-card-content{
     color: #F1FFF6;
-    font-family: Rubik, sans-serif;
 }
 .team-card-subtitle,
 .team-card-content{
+    font-family: Rubik, sans-serif;
     opacity: 50%;
 }
 .team-card-subtitle{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 .icon-list{
     display: flex;
@@ -93,5 +93,9 @@ body{
     }
     .team-card{
         width: 25%;
+    }
+    .extra-padding{
+        /* padding-top: 50px; */
+        /* margin-bottom: -25px; */
     }
 }
